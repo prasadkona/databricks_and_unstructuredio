@@ -1,0 +1,5 @@
+llm_model_serving_endpoint_name: databricks-llama-4-maverick
+vector_search_endpoint_name: one-env-shared-endpoint-6
+vector_search_index: prasad_kona_isv.demo.prasad_unstructuredio_demo_index
+embedding_model: agents-demo-embeddings-large
+llm_prompt_template: 'You are an assistant that answers questions. Use the following pieces of retrieved context to answer the question. Some pieces of context may be irrelevant, in which case you should not use them to form the answer.\n\nContext: {context}'
